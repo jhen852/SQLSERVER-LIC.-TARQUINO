@@ -136,7 +136,7 @@ begin
 	  end
 	  close c
 	  deallocate c
-
+--ckeck con la edad
 create table Competidor(
     ci int primary key,
 	nombre varchar(30) not null,
@@ -148,7 +148,7 @@ insert into Competidor values(1,'Carlos Lopes Quintanilla',30)
 insert into Competidor values (2,'Carola Lopes Quintanilla',14)
 
 select * from Competidor
-
+--ckeck con el numero
 create table Clientes(
    ci int primary key,
    nombre varchar(30) not null,
